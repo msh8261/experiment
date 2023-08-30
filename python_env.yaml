@@ -1,0 +1,15 @@
+# Python version required to run the project.
+python: "3.11.5"
+# Dependencies required to build packages. This field is optional.
+build_dependencies:
+  - pip
+  - setuptools
+  - wheel
+# Dependencies required to run the project.
+dependencies:
+  - mlflow
+  - pandas>=1.5.3
+  - scikit-learn>=1.2.2
+  - pre-commit>=3.2.1
+  - pytest>=7.2.2
+  - deepchecks>=0.13.0
